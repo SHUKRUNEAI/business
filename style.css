@@ -1,0 +1,91 @@
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.text {
+    font-size: 2rem;
+  }
+  
+
+.content1{
+    margin: 200px 120px;
+    width: 500px;
+    color:white;
+    text-align: left;
+}
+
+.main{
+    background-image: linear-gradient(rgba(9,0,77,0.65),rgba(9,0,77,0.65)) , url('https://img.freepik.com/premium-photo/employees-working-from-home-ar-c-v_839793-42749.jpg');
+     height: 800px;
+     background-size: cover;
+}
+.main_2{
+    margin: 50px 50px 100px;
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+.content_2{
+    display: block;
+    text-wrap: wrap;
+    text-align: center;
+    padding: 0px 40px 20px;
+    width: 800px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.text{
+    color: blue;
+}
+
+.image2{
+    width:700px;
+    margin: 20px 30px ;
+    background-image: url('images/photo-confident-young-businessman-suit-standing-with-arms-folded_973886-692.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat
+}
+
+.icons{
+    margin-top: 25px;
+    display: flex;
+    gap: 100px;
+    margin-left: 300px;
+    margin-bottom: 0px;
+}
+.icon1{
+    margin: 30px 10px 10px;
+}
+
+.head1{
+    text-align: center;
+    position: relative;
+}
+
+.head1::after{
+    content: "";
+    position: absolute;
+    bottom:-4px;
+    left: 47.5%;
+    width: 5%;
+    height: 2px;
+    background-color: blue;
+}
+.para4{
+    margin: 60px 300px ;
+    width: 600px;
+    background-color: blue;
+    color: white;
+}
+.main4{
+    margin-top: 20px;
+    padding: 80px 60px 60px;
+    background-color: #063970;
+}
+
+.content4{
+    color: white;
+}
